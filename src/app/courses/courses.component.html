@@ -1,0 +1,4 @@
+<h1>{{ title }} {{ getCourses().length }}</h1>
+<ul class="list-group">
+  <li *ngFor = "let course of getCourses()" class="list-group-item">{{ course }}</li>
+</ul>
